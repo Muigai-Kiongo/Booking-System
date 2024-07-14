@@ -1,0 +1,179 @@
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topnav {
+    background-color: rgb(61, 61, 235);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vmax;
+}
+
+
+
+
+.topnav .logo a {
+    display: flex;
+    margin: 10px;
+    padding: 14px;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.topnav .navlist {
+    display: flex;
+}
+
+.topnav .navlist a {
+    margin: 10px;
+    padding: 14px 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.topnav .navlist a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.topnav .btns {
+    height: max-content;
+    width: auto;
+    display: flex;
+    margin: 10px;
+    padding: 14px;
+}
+
+.topnav .btn,
+button {
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    margin-left: 3px;
+    padding: 10px;
+
+}
+
+.topnav .btn,
+button:hover {
+    background-color: cyan;
+    color: orangered;
+}
+
+.banner {
+    width: 100vmax;
+}
+
+.banner img {
+    width: 100vmax;
+    height: 70vmin;
+    object-fit: cover;
+    filter: brightness(50%);
+
+
+}
+
+.banner-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner .btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.banner .btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.articles {
+    padding: 10px;
+}
+
+.articles img {
+    width: auto;
+    object-fit: cover;
+    height: 30vmax;
+}
+
+section {
+    display: none;
+    text-align: center;
+}
+
+form {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    padding: 30px;
+    border: solid;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+form input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vmax;
+
+}
+
+.footer .about {
+    border-right: solid;
+    width: 100vmax;
+    margin: 10px;
+    padding: 14px;
+}
+
+.footer .contact {
+    border-right: solid;
+    list-style: none;
+    width: 100vmax;
+    margin: 10px;
+    padding: 14px;
+}
+
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100vmax;
+    margin: 10px;
+    padding: 14px;
+}
